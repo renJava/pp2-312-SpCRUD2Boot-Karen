@@ -8,7 +8,7 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 
 @Entity
-@Table(name = "users")
+@Table(name = "users3")
 public class User {
 
     @Id
@@ -82,4 +82,5 @@ public class User {
     public void setAge(Byte age) {
         this.age = age;
     }
+
 }

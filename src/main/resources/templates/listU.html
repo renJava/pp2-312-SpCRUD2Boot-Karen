@@ -134,13 +134,13 @@
         <tr>
           <th class="ID">ID</th>
           <th class="Name">Name</th>
-          <th class="LastName">LastName</th>
+          <th class="last_name">LastName</th>
           <th class="Age">Age</th>
           <th colspan="2">Actions</th>
         </tr>
         </thead>
         <tbody>
-        <tr th:each="user : ${users}">
+        <tr th:each="user : ${users3}">
           <td th:text="${user.id}"></td>
           <td th:text="${user.name}"></td>
           <td th:text="${user.lastName}"></td>
@@ -168,4 +168,5 @@
       </button>
     </div>
   </body>
+
 </html>

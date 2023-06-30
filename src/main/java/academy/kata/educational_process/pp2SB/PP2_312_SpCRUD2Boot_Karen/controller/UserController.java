@@ -28,7 +28,7 @@ public class UserController {
 
     @GetMapping("/")
     public String printUsers(Model model) {
-        model.addAttribute("users", userService.getAllUsers());
+        model.addAttribute("users3", userService.getAllUsers());
         return "listU";
     }
 

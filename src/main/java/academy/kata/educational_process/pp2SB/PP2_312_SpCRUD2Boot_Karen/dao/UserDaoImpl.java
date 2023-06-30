@@ -42,4 +42,5 @@ public class UserDaoImpl implements UserDao {
 
         return entityManager.find(User.class, id);
     }
+
 }
