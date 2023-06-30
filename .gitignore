@@ -12,11 +12,12 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.mvn/wrapper
 
 ### IntelliJ IDEA ###
 /.idea
 .idea
-#.gitignore
+.gitignore
 *.iws
 *.iml
 *.ipr
